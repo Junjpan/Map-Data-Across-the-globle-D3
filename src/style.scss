@@ -1,0 +1,41 @@
+body{
+  background:black;
+}
+h1{
+  text-align:center;
+  color:white;
+}
+
+
+svg{
+  background: #00334d;
+ display:block;
+  margin:75px auto;
+  border:white 5px solid;
+  border-radius:100px 0px 0px 0px;
+}
+
+.country{
+  stroke:gray;
+  stroke-width:0.5px
+}
+
+.selected{
+  fill:white
+}
+
+.meteor{
+  stroke:white;
+}
+
+.tooltip{
+  background:white;
+  opacity:0.5;
+  color:black;
+  text-align:left;
+  position:absolute;
+  z-index:1;
+  width:200px;
+  height:200px;
+  padding:20px;
+}
